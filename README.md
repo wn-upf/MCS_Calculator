@@ -6,6 +6,7 @@ Data set format (wireshark filters):
 frame.time_epoch | wlan_radio.duration | wlan_radio.preamble | wlan.duration | wlan_radio.11ac.short_gi | wlan_radio.11ac.nss | wlan_radio.11ac.stbc | wlan_radio.11ac.nsts | wlan_radio.signal_dbm | wlan_radio.a_mpdu_aggregate_id | wlan_radio.11ac.mcs | wlan_radio.11ac.bandwidth | frame.len | udp.length | wlan_radio.data_rate
 
 Function usage:
+
 MCSCalculator(D) returns the RSSI achieved with a distance D between the
 Access Point (AP) and the Station (STA) when the AP uses 20 MHz of channel
 bandwidth and 23 dBm of transmission power.
